@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "appMosafir.app"
-               BlueprintName = "appMosafir"
-               ReferencedContainer = "container:appMosafir.xcodeproj">
+               BuildableName = "Mosafirma.app"
+               BlueprintName = "Mosafirma"
+               ReferencedContainer = "container:Mosafirma.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "appMosafirTests.xctest"
-               BlueprintName = "appMosafirTests"
-               ReferencedContainer = "container:appMosafir.xcodeproj">
+               BuildableName = "MosafirmaTests.xctest"
+               BlueprintName = "MosafirmaTests"
+               ReferencedContainer = "container:Mosafirma.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "appMosafir.app"
-            BlueprintName = "appMosafir"
-            ReferencedContainer = "container:appMosafir.xcodeproj">
+            BuildableName = "Mosafirma.app"
+            BlueprintName = "Mosafirma"
+            ReferencedContainer = "container:Mosafirma.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "appMosafir.app"
-            BlueprintName = "appMosafir"
-            ReferencedContainer = "container:appMosafir.xcodeproj">
+            BuildableName = "Mosafirma.app"
+            BlueprintName = "Mosafirma"
+            ReferencedContainer = "container:Mosafirma.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
