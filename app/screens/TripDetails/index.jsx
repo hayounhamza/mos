@@ -26,7 +26,11 @@ function TripDetails({ navigation, route }) {
 
         getTrips(dep, dest)
             .then(({ data }) => {
-                setTrips(data.trips);
+                let trips = data.trips;
+                trips.sort(function (a, b) {
+                    return a.d_time.localeCompare(b.d_time);
+                });
+                setTrips(trips);
             })
             .catch((err) => {
                 alert('Someting went wrong, Please try again later.');
@@ -65,15 +69,26 @@ function TripDetails({ navigation, route }) {
     return (
         <Container>
             <Header />
-            <ScrollView style={{ paddingHorizontal: 12, paddingTop: 50 }}>
+            <ScrollView
+                contentContainerStyle={{ paddingBottom: 150 }}
+                style={{ paddingHorizontal: 12, paddingTop: 50 }}>
                 <SearchPanel
                     selectedDep={selectedDep}
                     selectedDest={selectedDest}
                     dataChanges={fetchTrips}
-                    
                 />
 
                 <View style={{ marginTop: 50 }}></View>
+                <Text
+                    style={{
+                        color: colors.white,
+                        ...fontSize['2xs'],
+                        textAlign: 'center',
+                        marginBottom: 8,
+                    }}>
+                    Mosafir.ma is not responsible for any delays, changes, or
+                    cancelled trips.
+                </Text>
                 {trips.length == 0 ? (
                     <View style={{ paddingHorizontal: 10 }}>
                         <Text

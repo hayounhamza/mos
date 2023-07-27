@@ -34,6 +34,7 @@ function TripRow({ trip }) {
                         <Text
                             style={{
                                 textTransform: 'uppercase',
+                                color: colors['grey-dark'],
                                 ...fontSize['sm'],
                             }}>
                             {trip.bus}
@@ -106,7 +107,7 @@ function TripRow({ trip }) {
                                 ...fontSize['2xs'],
                                 ...fontFamily['regular'],
                             }}>
-                            Departure
+                            Arrival
                         </Text>
                         <Text
                             style={{

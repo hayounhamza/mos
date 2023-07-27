@@ -52,7 +52,13 @@ function Header(props) {
                         borderWidth: 0,
                         borderRadius: 8,
                     }}
-                    dropdownStyles={{ backgroundColor: colors.white }}
+                    inputStyles={{ color: colors['grey-dark'] }}
+                    dropdownItemStyles={{ color: colors['grey-dark'] }}
+                    dropdownTextStyles={{ color: colors['grey-dark'] }}
+                    dropdownStyles={{
+                        backgroundColor: colors.white,
+                        color: colors['grey-dark'],
+                    }}
                     icon={
                         <Icon
                             name="map-pin"
@@ -72,7 +78,13 @@ function Header(props) {
                         borderWidth: 0,
                         borderRadius: 8,
                     }}
-                    dropdownStyles={{ backgroundColor: colors.white }}
+                    inputStyles={{ color: colors['grey-dark'] }}
+                    dropdownItemStyles={{ color: colors['grey-dark'] }}
+                    dropdownTextStyles={{ color: colors['grey-dark'] }}
+                    dropdownStyles={{
+                        backgroundColor: colors.white,
+                        color: colors['grey-dark'],
+                    }}
                     icon={
                         <Icon
                             name="map-pin"
