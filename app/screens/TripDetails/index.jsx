@@ -78,24 +78,30 @@ function TripDetails({ navigation, route }) {
                     dataChanges={fetchTrips}
                 />
 
-                <View style={{ marginTop: 50 }}></View>
-                <Text
+                <View
                     style={{
-                        color: colors.white,
-                        ...fontSize['2xs'],
-                        textAlign: 'center',
-                        marginBottom: 8,
+                        marginTop: 20,
+                        paddingHorizontal: 80,
+                        marginBottom: 20,
                     }}>
-                    Mosafir.ma is not responsible for any delays, changes, or
-                    cancelled trips.
-                </Text>
+                    <Text
+                        style={{
+                            color: colors.white,
+                            ...fontSize['2xs'],
+                            textAlign: 'center',
+                            marginBottom: 8,
+                        }}>
+                        Mosafir.ma is not responsible for any delays, changes,
+                        or cancelled trips.
+                    </Text>
+                </View>
                 {trips.length == 0 ? (
-                    <View style={{ paddingHorizontal: 10 }}>
+                    <View style={{ paddingHorizontal: 10, marginTop: 40 }}>
                         <Text
                             style={{
                                 color: colors.white,
                                 ...fontSize['xl'],
-                                textAlign: 'left',
+                                textAlign: 'center',
                                 ...fontFamily['bold'],
                             }}>
                             Opps..
@@ -104,7 +110,7 @@ function TripDetails({ navigation, route }) {
                             style={{
                                 color: colors.white,
                                 ...fontSize['xl'],
-                                textAlign: 'left',
+                                textAlign: 'center',
                                 marginBottom: 30,
                                 ...fontFamily['regular'],
                             }}>

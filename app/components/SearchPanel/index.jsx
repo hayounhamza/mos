@@ -51,6 +51,7 @@ function Header(props) {
                         backgroundColor: colors.white,
                         borderWidth: 0,
                         borderRadius: 8,
+                        color: colors['grey-dark'],
                     }}
                     inputStyles={{ color: colors['grey-dark'] }}
                     dropdownItemStyles={{ color: colors['grey-dark'] }}

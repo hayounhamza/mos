@@ -139,6 +139,7 @@ const SelectList: React.FC<SelectListProps> =  ({
                             
                             <TextInput 
                                 placeholder={searchPlaceholder}
+
                                 onChangeText={(val) => {
                                     let result =  data.filter((item: L1Keys) => {
                                         val.toLowerCase();
@@ -147,7 +148,9 @@ const SelectList: React.FC<SelectListProps> =  ({
                                     });
                                     setFilteredData(result)
                                 }}
-                                style={[{padding:0,height:20,flex:1,fontFamily},inputStyles]}
+                                style={[{padding:0,height:20,flex:1,fontFamily,},inputStyles]}
+                                placeholderTextColor="#8795A1" 
+
                             />
                                 <TouchableOpacity onPress={() => slideup()} >
 

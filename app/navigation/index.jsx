@@ -111,6 +111,7 @@ function CustomDrawerContent(props) {
                                 ...fontSize['sm'],
                                 ...fontFamily['regular'],
                                 marginStart: 15,
+                                color: colors.black
                             }}>
                             {el.label}
                         </Text>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from './app/navigation';
 import SideMenu from '@chakrahq/react-native-side-menu';
-import { Text, View } from 'react-native';
+import { Text, View, StatusBar } from 'react-native';
 import { ThemeContext } from './app/context/ThemeContext';
 import Toast from 'react-native-toast-message';
 
@@ -21,6 +21,7 @@ function App() {
         // <ThemeContext.Provider value={theme}>
         // <SideMenu isOpen={false} menu={menu}>
         <>
+            <StatusBar animated={true} backgroundColor="#3e53b2" />
             <Navigation />
             <Toast />
         </>
