@@ -1,4 +1,7 @@
 {
-  "name": "Mosafir.ma",
-  "displayName": "Mosafir.ma"
+    "name": "Mosafir.ma",
+    "displayName": "Mosafir.ma",
+    "react-native-google-mobile-ads": {
+        "android_app_id": "ca-app-pub-4543204757787590~8037439947"
+    }
 }

@@ -14,6 +14,8 @@ import Header from '../../components/Header';
 import SearchPanel from '../../components/SearchPanel';
 import { colors, fontSize, fontFamily } from '../../style';
 import { getDestinations } from '../../api/Trips';
+import { BannerAd, BannerAdSize } from 'react-native-google-mobile-ads';
+
 function HomeScreen({ navigation }) {
     const [destinations, setDestinations] = React.useState([]);
 
@@ -48,7 +50,19 @@ function HomeScreen({ navigation }) {
                     Find your destination over +16000 trip & explore amzing
                     cities for a perfect day.
                 </Text>
-
+                <View
+                    style={{
+                        flexDirection: 'row',
+                        justifyContent: 'center',
+                        marginBottom: 12,
+                    }}>
+                    <BannerAd
+                        size={BannerAdSize.BANNER}
+                        unitId="ca-app-pub-4543204757787590/5773667867"
+                        onAdLoaded={() => {}}
+                        onAdFailedToLoad={(error) => {}}
+                    />
+                </View>
                 <SearchPanel dataChanges={fetchTrips} />
                 <Text
                     style={{
