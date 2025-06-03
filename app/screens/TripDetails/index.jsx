@@ -56,7 +56,7 @@ function TripDetails({ navigation, route }) {
                 setTrips(trips);
             })
             .catch((err) => {
-                alert('Someting went wrong, Please try again later.');
+                alert('Something went wrong, Please try again later.');
             })
             .finally(() => {
                 setLoading(false);

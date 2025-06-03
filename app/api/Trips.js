@@ -10,7 +10,7 @@ const getCities = () => {
 };
 
 const getArvCities = (dep) => {
-    return axios.get(`${API_ROOT}/arv_cites?dep=${dep}`);
+    return axios.get(`${API_ROOT}/arv_cities?dep=${dep}`);
 };
 
 const getDestinations = () => {
