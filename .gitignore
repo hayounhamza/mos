@@ -65,3 +65,7 @@ yarn-error.log
 
 # testing
 /coverage
+
+# Document files
+*.docx
+*.doc
