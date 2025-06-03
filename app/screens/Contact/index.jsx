@@ -142,7 +142,7 @@ function HomeScreen({ navigation }) {
                         <View
                             style={{
                                 flexDirection: 'row',
-                                justifyContent: 'start',
+                                justifyContent: 'flex-start',
                             }}>
                             <TouchableOpacity
                                 onPress={submit}
