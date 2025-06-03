@@ -47,7 +47,7 @@ function HomeScreen({ navigation }) {
                         ...fontFamily['regular'],
                         marginTop: 60,
                     }}>
-                    Find your destination over +16000 trip & explore amzing
+                    Find your destination over +16000 trip & explore amazing
                     cities for a perfect day.
                 </Text>
                 <View
