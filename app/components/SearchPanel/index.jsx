@@ -24,7 +24,7 @@ function Header(props) {
             })
             .catch((err) => {
                 // alert(JSON.stringify(err));
-                alert('Someting went wrong, Please try again later.');
+                alert('Something went wrong, Please try again later.');
             });
     }, []);
 
