@@ -59,7 +59,7 @@ function CustomDrawerContent(props) {
         },
         {
             label: 'Terms of Use',
-            onClick: () => Linking.openURL('https://mosafir.ma/terms-of-us'),
+            onClick: () => Linking.openURL('https://mosafir.ma/terms-of-use'),
             icon: require(`../assets/cpp.png`),
         },
         {
