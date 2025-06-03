@@ -34,8 +34,8 @@ function HomeScreen({ navigation }) {
             .then((data) => {
                 Toast.show({
                     type: 'success',
-                    text1: 'Thank Youn!',
-                    text2: 'You message has been sent.',
+                    text1: 'Thank You!',
+                    text2: 'Your message has been sent.',
                 });
             })
             .catch((err) => {})
@@ -142,7 +142,7 @@ function HomeScreen({ navigation }) {
                         <View
                             style={{
                                 flexDirection: 'row',
-                                justifyContent: 'start',
+                                justifyContent: 'flex-start',
                             }}>
                             <TouchableOpacity
                                 onPress={submit}
